@@ -9,6 +9,13 @@ html{
 }
 
 /* __________ COMMON STYLES __________ */
+.grow { 
+    transition: all .2s ease-in-out; 
+}
+.grow:hover { 
+    transform: scale(1.2); 
+}
+
 main section{
     height: 100vh;
     position: relative;
