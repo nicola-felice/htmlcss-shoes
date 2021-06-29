@@ -5,7 +5,48 @@
 }
 
 /* __________ COMMON STYLES __________ */
+main section{
+    height: 100vh;
+    position: relative;
+}
 
+.green_text{
+    color: green;
+}
+
+img{
+    max-width: 100%;
+}
+
+main .center_content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 550px;
+}
+
+.red_bg{
+    background-color: red;
+}
+
+.green_bg{
+    background-color: green;
+}
+
+.yellow_bg{
+    background-color: yellow;
+}
+
+h2{
+    font-family: 'Dela Gothic One', cursive;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 900;
+    text-align: center;
+    color: yellow;
+    word-spacing: 20px;
+}
 /* __________ END COMMON STYLES __________ */
 
 
@@ -15,6 +56,7 @@ header{
     position: fixed;
     top: 5%;
     right: 2.5%;
+    z-index: 999;
 }
 
 header a{
@@ -27,10 +69,16 @@ header a{
 
     height: 35px; 
     width: 35px;
-    margin-left: 15px;
+    margin-left: 25px;
 
     display: inline-block;
     border-radius: 50%;
     background-color: whitesmoke;
 }
 /* __________ END HEADER __________ */
+
+
+
+/* __________ MAIN __________ */
+
+/* __________ END MAIN __________ */
