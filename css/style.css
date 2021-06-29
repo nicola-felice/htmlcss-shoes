@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* __________ COMMON STYLES __________ */
+
+/* __________ END COMMON STYLES __________ */
+
+
+
+/* __________ HEADER __________ */
+header{
+    position: fixed;
+    top: 5%;
+    right: 2.5%;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 1.25rem;
+    text-align: center;
+    line-height: 33px;
+
+    height: 35px; 
+    width: 35px;
+    margin-left: 15px;
+
+    display: inline-block;
+    border-radius: 50%;
+    background-color: whitesmoke;
+}
+/* __________ END HEADER __________ */
